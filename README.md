@@ -6,5 +6,6 @@ which ist connected via i2c to an Arduino Mega with Mobiflight.
 
 The Oled display (AZDelivery 1x 0,96 Zoll OLED Display - I2C SSD1306 Chip 128 x 64 Pixel I2C) is connected to the second Arduino SDA to pin 13 and SCL to pin 11
 
+![alt text](https://github.com/gagagu/Mobiflight-A320-Efis-Display-with-Arduino/blob/main/IMAGES/fritzing.png)
 
 I will make a better description in the next couple of days.
