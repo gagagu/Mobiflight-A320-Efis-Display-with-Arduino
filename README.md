@@ -1,4 +1,4 @@
-# Mobiflight-Fenix-A320-Efis-Display-with-Arduino
+# Mobiflight-A320-Efis-Display-with-Arduino
 Fenix A320 Efis Display for Mobiflight
 
 This is a small project (still in development) to realize an A320 Efis Display for Fenix with Mobiflight. The thing is that the 0,96" Display is connected to a second Arduino (tested with Leonardo) 
