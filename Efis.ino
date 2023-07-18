@@ -152,6 +152,7 @@ void receiveEvent() {
          msgArray[8]='\0';
      }
 
+    Serial.println(msgArray);
     handleCommand(String(msgArray));
 
    }else{
