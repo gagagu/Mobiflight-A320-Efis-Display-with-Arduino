@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="f0a580bc-820b-4485-b57d-e84a15ac9fea">
+      <active>true</active>
+      <description>qnh_hpa</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:KOHLSMAN SETTING HG, Number) 100 / near" UUID="6a967ca0-889a-4841-8244-7aae9c214407" />
+        <modifiers>
+          <transformation active="False" expression="$$.$$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="LcdDisplay" serial="MobiFlight Mega/ SN-3f0-eab" trigger="normal" address="LcdDisplay">
+          <line>C:EF_HP V:$$$$</line>
+          <line>******Test******</line>
+          <line>1234567890123456</line>
+          <line>01234567890abcefghijklmnopqrstuv</line>
+        </display>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b9785500-e6a6-438e-a841-aa97cfce6ac2">
+      <active>false</active>
+      <description>qnh_hg</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:KOHLSMAN SETTING HG, Number) 33.866 / near" UUID="ca26c5cf-f9a9-46cd-9e47-1d50f9c03fe8" />
+        <modifiers>
+          <transformation active="False" expression="$$.$$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="LcdDisplay" serial="MobiFlight Mega/ SN-3f0-eab" trigger="normal" address="LcdDisplay">
+          <line>C:EF_HG V:$$.$$</line>
+          <line>******Test******</line>
+          <line>1234567890123456</line>
+          <line>01234567890abcefghijklmnopqrstuv</line>
+        </display>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2955e3f5-16a6-4fab-8f26-e1bac4bf284e">
+      <active>false</active>
+      <description>hg_ro_hpa</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:S_FCU_EFIS1_BARO_MODE)" UUID="b192b3b7-e6ee-444a-8349-bd9fa0c074f6" />
+        <modifiers>
+          <transformation active="False" expression="$$.$$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="LcdDisplay" serial="MobiFlight Mega/ SN-3f0-eab" trigger="normal" address="LcdDisplay">
+          <line>C:HG_PA V:$</line>
+          <line>******Test******</line>
+          <line>1234567890123456</line>
+          <line>01234567890abcefghijklmnopqrstuv</line>
+        </display>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3ffe98fa-75ed-4b3f-a509-60fd7fbf673d">
+      <active>false</active>
+      <description>baro_std</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:S_FCU_EFIS1_BARO_STD) " UUID="0468d4e6-7488-4c67-a41a-23ede3e89391" />
+        <modifiers>
+          <transformation active="False" expression="$$.$$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="LcdDisplay" serial="MobiFlight Mega/ SN-3f0-eab" trigger="normal" address="LcdDisplay">
+          <line>C:BA_ST V:$</line>
+          <line>******Test******</line>
+          <line>1234567890123456</line>
+          <line>01234567890abcefghijklmnopqrstuv</line>
+        </display>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs />
+</MobiflightConnector>
