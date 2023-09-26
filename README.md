@@ -1,6 +1,9 @@
 # Mobiflight-A320-Efis-Display-with-Arduino
 A320 Efis Display for Mobiflight
 
+## This project is outdated
+see here: https://github.com/gagagu/Mobiflight-A320-Efis-Fcu-Display-with-ESP32
+
 This is a small project (still in development) to realize an A320 Efis Display with Mobiflight. The thing is that the 0,96" Display is connected to a second Arduino (tested with Leonardo) 
 which ist connected via i2c to an Arduino Mega with Mobiflight.
 
